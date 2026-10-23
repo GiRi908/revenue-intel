@@ -1,0 +1,273 @@
+[
+  {
+    "source_type": "call",
+    "source_id": "2ec4404c-beee-5377-a63c-aab701da08ed",
+    "record_ref": "C01",
+    "source_revision": 1,
+    "summary": "Cold outbound call by Arun to Pranav at Harborlight Advisory. Pranav was unreceptive to the unsolicited contact, questioned how his details were obtained, and stated their processes are already 'very automated' with a 'fairly advanced setup'. Call ended with a clear rejection.",
+    "evidence": [
+      { "type": "quote", "ref": "C01", "text": "I didn't ask for this call, and I'm not interested" },
+      { "type": "quote", "ref": "C01", "text": "Our processes are already very automated. We have a fairly advanced setup, so I don't think this is something we need" }
+    ],
+    "not_established": "Whether Harborlight Advisory actually uses competitive products, or whether Pranav is the correct decision-maker. The claim of advanced automation is unverified.",
+    "next_steps": { "action": "No follow-up warranted — prospect explicitly declined", "owner": null },
+    "pre_generated": true
+  },
+  {
+    "source_type": "call",
+    "source_id": "4b870624-8aad-5315-a60e-0db95981cf99",
+    "record_ref": "C02",
+    "source_revision": 1,
+    "summary": "Call to Fernhaven Group receptionist Kavya, asking for Leela. Leela was not in the office. Caller was transferred to voicemail. No substantive business discussion occurred.",
+    "evidence": [
+      { "type": "quote", "ref": "C02", "text": "It looks as though she isn't in the office today. Would you like to leave a message with me, or would you prefer her voicemail?" }
+    ],
+    "not_established": "The purpose of the call, who the caller was, or what relationship exists with Fernhaven Group. No business context was discussed.",
+    "next_steps": { "action": "Follow up with Leela directly — voicemail was left", "owner": null },
+    "pre_generated": true
+  },
+  {
+    "source_type": "call",
+    "source_id": "20d509ba-d589-5334-9aef-ea4ce6105b1a",
+    "record_ref": "C03",
+    "source_revision": 1,
+    "summary": "Follow-up call by Kiran to Milan about developer API access. The call had severe audio quality issues (poor connection, roaming). Milan indicated the team's interest in developer functionality is low-priority and price-sensitive. They agreed to continue via email with a follow-up call on Monday/Tuesday.",
+    "evidence": [
+      { "type": "quote", "ref": "C03", "text": "it isn't essential enough for us to spend much on it" },
+      { "type": "quote", "ref": "C03", "text": "the last conversation was more about leaving things as they were" },
+      { "type": "quote", "ref": "C03", "text": "Send the email and we can speak Monday or Tuesday" }
+    ],
+    "not_established": "The exact budget or whether Milan's team has authority to purchase. The previous conversation's specifics are referenced but not available in this data.",
+    "next_steps": { "action": "Send email with subject 'Developer access and event notifications — follow-up', then call Monday/Tuesday", "owner": "Kiran" },
+    "pre_generated": true
+  },
+  {
+    "source_type": "call",
+    "source_id": "bcdcbf56-d338-5c78-9a97-42c2fc1c9931",
+    "record_ref": "C04",
+    "source_revision": 1,
+    "summary": "Arun left a detailed voicemail for Ritesh at Lanternpath Media following up on expense software. He referenced a prior issue where information was sent to the wrong email address, which was subsequently corrected. The voicemail requests a callback to learn Ritesh's decision. NOTE: This record is classified as 'voicemail' by the source system but contains a substantive transcript, warranting human review of the classification.",
+    "evidence": [
+      { "type": "quote", "ref": "C04", "text": "My understanding is that our information first went to the wrong email address. We subsequently used the corrected address you gave us" },
+      { "type": "quote", "ref": "C04", "text": "Please call me back to let me know where things stand" }
+    ],
+    "not_established": "Whether Ritesh has received the corrected materials, whether a decision has been made, or the size/value of the opportunity.",
+    "next_steps": { "action": "Await callback from Ritesh; if no response, follow up within a few days", "owner": "Arun" },
+    "pre_generated": true
+  },
+  {
+    "source_type": "call",
+    "source_id": "75a6b94f-7717-5cfb-9e41-0acc94415e17",
+    "record_ref": "C05",
+    "source_revision": 1,
+    "summary": "Cold call by Meera to a multi-store retail business. The prospect stated they already have vendor management, payment execution, and store expense controls through existing providers including StoreHarbor. Agreed to receive a presentation for possible future consideration but showed no current need.",
+    "evidence": [
+      { "type": "quote", "ref": "C05", "text": "We already have that" },
+      { "type": "quote", "ref": "C05", "text": "What I suggest is that you send me your presentation. If we ever decide to change the providers we already have, we could consider it then" }
+    ],
+    "not_established": "The full set of existing providers, contract terms, or pain points that might create future opportunity. The prospect's name was not captured in the transcript.",
+    "next_steps": { "action": "Send presentation to contact05@example.com — low priority, no active interest", "owner": "Meera" },
+    "pre_generated": true
+  },
+  {
+    "source_type": "call",
+    "source_id": "12216d5c-e254-52c6-b344-47de4c6e1ae5",
+    "record_ref": "C06",
+    "source_revision": 1,
+    "summary": "Cold call by Ravi to Mr Nikhil. The prospect has 120+ stores with extensive automation already in place ('mixed model', 'full visibility', connected through business management system). Firmly declined but was polite. Ravi asked a useful qualifying question about card vs cash advance usage at stores.",
+    "evidence": [
+      { "type": "quote", "ref": "C06", "text": "We have quite a lot of automation, with a mixed model where needed. The essential processes are automated and connected through our business management system" },
+      { "type": "quote", "ref": "C06", "text": "If a particular need comes up later, we will reach out" }
+    ],
+    "not_established": "Whether their existing system truly covers all expense scenarios or if there are hidden gaps. The specific business management system is not identified.",
+    "next_steps": { "action": "No follow-up — prospect declined and said they would reach out if needed", "owner": null },
+    "pre_generated": true
+  },
+  {
+    "source_type": "call",
+    "source_id": "428817fa-7e9e-5418-a7d4-bb396d28dfbf",
+    "record_ref": "C07",
+    "source_revision": 1,
+    "summary": "Outbound call by Dev to Mr Aditya at Willowbank Advisory about a partnership. Aditya confirmed they help clients with overseas incorporation and currently refer clients to digital account providers. He agreed to receive a proposal via messaging app and schedule a Monday follow-up call. Partnership interest is genuine but early-stage.",
+    "evidence": [
+      { "type": "quote", "ref": "C07", "text": "We support several overseas jurisdictions, yes" },
+      { "type": "quote", "ref": "C07", "text": "Yes, that is something we normally do" },
+      { "type": "quote", "ref": "C07", "text": "could you message me on our chat app and send whatever proposal you have" }
+    ],
+    "not_established": "Volume of referrals Willowbank Advisory handles, the commercial terms that would be attractive, or whether Aditya is the sole decision-maker.",
+    "next_steps": { "action": "Send partnership proposal via messaging app, then call Monday", "owner": "Dev" },
+    "pre_generated": true
+  },
+  {
+    "source_type": "call",
+    "source_id": "129497b2-8e1d-5e01-919c-e8a852b5ff68",
+    "record_ref": "C08",
+    "source_revision": 1,
+    "summary": "Cold call by Meera to Mr Raghav. He showed moderate interest and offered an email contact for a colleague who handles people operations and frontline processes. He mentioned there may have been prior internal discussions about a similar solution. A follow-up email to contact08@example.com was agreed.",
+    "evidence": [
+      { "type": "quote", "ref": "C08", "text": "The colleague handling our people operations also deals with frontline processes and the locations. I think we may have been looking at a solution, but I don't know the details" },
+      { "type": "quote", "ref": "C08", "text": "contact08@example.com" }
+    ],
+    "not_established": "Whether the colleague has decision authority, what solution they were evaluating, or the company's size and spending volume.",
+    "next_steps": { "action": "Send proposal to contact08@example.com mentioning conversation with Mr Raghav", "owner": "Meera" },
+    "pre_generated": true
+  },
+  {
+    "source_type": "call",
+    "source_id": "4a1de681-f884-55e8-b1ad-de22d17cd959",
+    "record_ref": "C09",
+    "source_revision": 1,
+    "summary": "Cold call by Meera to Mr Vedant at a 130-store business. Vedant stated they have built their own internal expense software and are not looking externally. He referred Meera to Mr Rishabh (business head, findable on professional networking) but explicitly asked that his name not be used in the approach.",
+    "evidence": [
+      { "type": "quote", "ref": "C09", "text": "We have developed our own software internally, so at present we aren't looking for anything outside the organisation" },
+      { "type": "quote", "ref": "C09", "text": "you can find our business head, Mr Rishabh, on a professional networking site" },
+      { "type": "quote", "ref": "C09", "text": "No, please don't use my name" }
+    ],
+    "not_established": "Whether the internal software covers payment execution or only recording/approvals. Whether Mr Rishabh would be receptive.",
+    "next_steps": { "action": "Contact Mr Rishabh via professional networking — do NOT mention Vedant's name", "owner": "Meera" },
+    "pre_generated": true
+  },
+  {
+    "source_type": "call",
+    "source_id": "b747f592-810e-583c-9b81-8db5ab035806",
+    "record_ref": "C10",
+    "source_revision": 1,
+    "summary": "Cold call by Meera to Mr Aniket. He no longer works at Meadowbrick (the target company) and has moved to manufacturing. He showed minimal interest in the new context, asked Meera to send an explanation via messaging app, and explicitly told her not to call for follow-up — he would contact her if interested.",
+    "evidence": [
+      { "type": "quote", "ref": "C10", "text": "I don't work there anymore" },
+      { "type": "quote", "ref": "C10", "text": "send an explanation of what you do. I will get back to you" },
+      { "type": "quote", "ref": "C10", "text": "No. I said I will contact you if there is anything to discuss" }
+    ],
+    "not_established": "Whether the original Meadowbrick contact data should be updated, or whether his new manufacturing company is a viable prospect.",
+    "next_steps": { "action": "Send brief via messaging app — do not call for follow-up per prospect's request", "owner": "Meera" },
+    "pre_generated": true
+  },
+  {
+    "source_type": "meeting",
+    "source_id": "cb5cecac-e68d-52b7-b10b-b0c748efc467",
+    "record_ref": "M01",
+    "source_revision": 1,
+    "summary": "Partnership discussion between Harborpath Advisory and SpendNest. Partner A wants to offer SpendNest virtual business accounts to their advisory clients. Detailed commission structure discussed (USD 260 activation, interchange share, volume bonuses). Key requirements covered: KYC/KYB documentation, US operations evidence, referral link mechanism. Partner A pushed for scalable process (not manual email introductions). Agreed on unique referral link approach with shared tracking sheet. Partner also proposed future podcast collaboration.",
+    "evidence": [
+      { "type": "turn", "ref": "M01", "turn": 6, "text": "Yes, I use some myself and recommend them. Usually I receive nothing for the recommendation. If there is a sensible commercial arrangement here, that is interesting to me." },
+      { "type": "turn", "ref": "M01", "turn": 9, "text": "The activation payment is USD 260 when a referred company gets its account approved by our compliance partners." },
+      { "type": "turn", "ref": "M01", "turn": 20, "text": "It cannot depend on me manually writing every email. This needs to scale when people discover the offer through us." },
+      { "type": "turn", "ref": "M01", "turn": 23, "text": "Two limitations to include in your material: receiving funds here means bank transfers, not directly taking card payments from customers." }
+    ],
+    "not_established": "The volume of referrals Harborpath Advisory can deliver, partner's current client base size, or timeline for first referral. The memorandum has not yet been signed.",
+    "next_steps": { "action": "Send partner memorandum, referral link, commission documentation, and product limitations summary. Connect with marketing re: podcast.", "owner": "Team member A" },
+    "pre_generated": true
+  },
+  {
+    "source_type": "meeting",
+    "source_id": "1a21c409-c050-5787-90af-2667e057e1b6",
+    "record_ref": "M02",
+    "source_revision": 1,
+    "summary": "Vendor evaluation meeting: SpendNest evaluating LedgerBridge for compliant electronic invoicing across markets (Singapore, Australia, India). Discussion covered e-invoicing vs PDF, integration approach, pricing models (country licences vs per-customer), and setup costs (EUR 2,600–6,500+). SpendNest targets Q4 implementation but acknowledged possible slip. LedgerBridge to send volume template; SpendNest needs to complete it with AP and estimated AR volumes before a commercial proposal.",
+    "evidence": [
+      { "type": "turn", "ref": "M02", "turn": 3, "text": "Electronic invoicing is the bigger opportunity. Customers already have approved invoice layouts." },
+      { "type": "turn", "ref": "M02", "turn": 13, "text": "We are aiming for the fourth quarter. We would start with Singapore and Australia, then India." },
+      { "type": "turn", "ref": "M02", "turn": 15, "text": "There are several projects competing for that quarter. Early next year is possible if the work moves." },
+      { "type": "turn", "ref": "M02", "turn": 31, "text": "The basic setup begins at EUR 2,600; a more supported implementation starts at EUR 6,500" }
+    ],
+    "not_established": "Whether SpendNest management has approved the budget, exact customer volumes, or which pricing model will be chosen. The Q4 timeline is aspirational, not confirmed.",
+    "next_steps": { "action": "Complete LedgerBridge volume template (AP actuals + AR estimates, clearly distinguished), brief management, schedule explanation call", "owner": "Team member A / Team member B" },
+    "pre_generated": true
+  },
+  {
+    "source_type": "meeting",
+    "source_id": "398672e7-62dd-5afd-846d-0237d49792fb",
+    "record_ref": "M03",
+    "source_revision": 1,
+    "summary": "Sales evaluation meeting with Asterloom Systems. Customer exploring domestic prepaid cards for ~INR 10-13 lakh monthly employee expenses (currently reimbursement-based). Key friction: customer expected credit cards, not prepaid. Price discussion revealed prior quote of INR 26,000 vs current INR 39,000 (difference = one-time integration setup). CFO approval still needed. Customer wants to start with 4-5 employees. Also surfaced potential vendor payments opportunity (INR 26-39 lakh/month).",
+    "evidence": [
+      { "type": "turn", "ref": "M03", "turn": 6, "text": "Wait, these are prepaid? I had thought about a corporate credit card. So we put money in before anyone spends, and there is no credit facility on these domestic cards?" },
+      { "type": "turn", "ref": "M03", "turn": 23, "text": "But you previously told me INR 26,000. Why has that become INR 39,000?" },
+      { "type": "turn", "ref": "M03", "turn": 28, "text": "Our CFO approves the larger payments. We need to explain the proposal to them; that part is still ahead of us." },
+      { "type": "turn", "ref": "M03", "turn": 34, "text": "The external team processes vendor payments manually and it is expensive. That might be relevant later." }
+    ],
+    "not_established": "Whether the CFO will approve, whether prepaid is acceptable (credit was preferred), or the exact monthly spend. The vendor payments opportunity volume needs confirmation.",
+    "next_steps": { "action": "Send cards proposal with attractive pricing (including setup charge consideration). Customer will present to CFO internally before scheduling another call.", "owner": "Team member A" },
+    "pre_generated": true
+  },
+  {
+    "source_type": "meeting",
+    "source_id": "b0f79b3d-37ba-52f9-b2bc-58b159dd6d91",
+    "record_ref": "M04",
+    "source_revision": 1,
+    "summary": "Customer success meeting with Cedarwave Distribution about a mandatory card programme migration (old network → new provider). Complex situation: customer wants credit cards (not more prepaid), has existing INR 1.3 crore credit line with bank, needs integration with accounting/people system. Discussion explored hybrid model: bank credit cards for ~26 people + SpendNest prepaid for others. Multiple unresolved issues: department user moves, accounting integration feasibility for bank cards, and the customer's reluctance to decide on this call.",
+    "evidence": [
+      { "type": "turn", "ref": "M04", "turn": 4, "text": "It is not available on the current network in this arrangement. The programme we are moving to supports it. The plan is to close the old programme in the coming weeks" },
+      { "type": "turn", "ref": "M04", "turn": 11, "text": "moving from prepaid to credit is the main issue for us" },
+      { "type": "turn", "ref": "M04", "turn": 22, "text": "We already have a corporate credit line of about INR 1.3 crore" },
+      { "type": "turn", "ref": "M04", "turn": 29, "text": "We are not deciding the whole migration on this call" }
+    ],
+    "not_established": "Whether existing bank cards can join the transaction-feed programme, accounting integration feasibility for bank-card transactions, or the customer's timeline for making a decision.",
+    "next_steps": { "action": "Check bank card eligibility for transaction-feed programme with programme team. Schedule department user-move session. Await customer's internal discussion.", "owner": "Team member A" },
+    "pre_generated": true
+  },
+  {
+    "source_type": "meeting",
+    "source_id": "657b9e9d-9472-5b01-a127-a648ad7e8cf7",
+    "record_ref": "M06",
+    "source_revision": 1,
+    "summary": "Discovery/demo meeting with Mapletrail Services (software dev/testing company, ~65 finance staff). Discussion covered receivables automation (260-390+ invoices/month, large value, many in foreign currency) and expense management. Customer showed genuine interest in collections automation to reduce manual follow-up work. Also discussed expense cards, vendor payments, and security/confidentiality concerns. Customer wants to review materials and stay in touch.",
+    "evidence": [
+      { "type": "turn", "ref": "M06", "turn": 9, "text": "I cover around eight clients. I speak to delivery managers about what was delivered, check the contract and resource rates, prepare the invoice and get confirmation." },
+      { "type": "turn", "ref": "M06", "turn": 12, "text": "Around 65–78 customers. There may be several projects for each. Initially I would estimate 260–390 invoices a month" },
+      { "type": "turn", "ref": "M06", "turn": 25, "text": "At present people still track contract terms and bank receipts manually. Automation could save time" },
+      { "type": "turn", "ref": "M06", "turn": 31, "text": "Confidentiality is important. Payment information is sensitive. How is that protected" }
+    ],
+    "not_established": "Whether the central team would support changing existing processes, the decision-making authority of the branch finance person, or specific timeline for evaluation.",
+    "next_steps": { "action": "Send receivables automation and expense management materials, including security/compliance documentation. Follow up for the customer's assessment of what is useful.", "owner": "Team member A" },
+    "pre_generated": true
+  },
+  {
+    "source_type": "meeting",
+    "source_id": "4f304fff-fd40-5cfc-a366-0a134c445c2a",
+    "record_ref": "M07",
+    "source_revision": 2,
+    "summary": "Customer support bug-triage meeting with Willowfield Trust. Customer demonstrated four distinct product issues: (1) editing a payment description does not persist after save, (2) cannot upload documents via the 'Recreate payment' route (workaround: use invoice inbox Review), (3) reimbursement transactions stuck in 'Processing' state, (4) 'Mark as paid' retains the previous payment's amount when opening the next item. Team member captured screenshots and committed to investigating all issues with the product team.",
+    "evidence": [
+      { "type": "turn", "ref": "M07", "turn": 3, "text": "The field still shows the earlier wording. So the change is not appearing after you save, is that right?" },
+      { "type": "turn", "ref": "M07", "turn": 12, "text": "It uploads here. This route works, so it is not that I cannot attach a file anywhere." },
+      { "type": "turn", "ref": "M07", "turn": 19, "text": "The payments appear to have been released but are stuck showing Processing." },
+      { "type": "turn", "ref": "M07", "turn": 23, "text": "Let me confirm: it is retaining the previous amount rather than fetching the next payment's value." }
+    ],
+    "not_established": "Root cause of any of the four bugs, timeline for fixes, or whether these issues affect other customers. The workaround addresses only the upload issue.",
+    "next_steps": { "action": "Report all four issues to product team with screenshots and reproduction steps. Provide update to customer today or by Monday.", "owner": "Team member A" },
+    "pre_generated": true
+  },
+  {
+    "source_type": "meeting",
+    "source_id": "4b5b9192-f3fc-505a-8e77-4d2ffaa54594",
+    "record_ref": "M09",
+    "source_revision": 1,
+    "summary": "Customer onboarding/support session with a customer managing two companies: Brookmint Holdings and Northkite Equipment. Key issues: (1) Brookmint Holdings invitation link expired — twice — needs engineering investigation, (2) access control concern: shared mailbox means AP officer could gain admin access unintentionally, (3) customer wants separate personal work identities for two companies for future handover. Customer also reviewed a transaction missing receipts and learned about undo-verification workflow.",
+    "evidence": [
+      { "type": "turn", "ref": "M09", "turn": 1, "text": "The invitation for Brookmint Holdings did not work when I tried it. It may have expired" },
+      { "type": "turn", "ref": "M09", "turn": 17, "text": "I do not want this to depend on trusting someone not to use access that is available. That does not solve the permission problem." },
+      { "type": "turn", "ref": "M09", "turn": 21, "text": "It says the token has expired. This is the fresh message we just received." },
+      { "type": "turn", "ref": "M09", "turn": 26, "text": "This transaction has no receipt, but the employee says the invoice was entered and saved." }
+    ],
+    "not_established": "Root cause of the expired invitation token, whether Brookmint Holdings will have many more users than Northkite Equipment, or the customer's timeline for full rollout.",
+    "next_steps": { "action": "Investigate expired-token issue for Brookmint Holdings with engineering team. Update customer today or by Monday. Customer will consult IT about separate email identities.", "owner": "Team member A" },
+    "pre_generated": true
+  },
+  {
+    "source_type": "meeting",
+    "source_id": "337f297d-9385-5b82-9e54-5019c1ed912c",
+    "record_ref": "M10",
+    "source_revision": 1,
+    "summary": "Internal billing workflow training session (day 2). Covered: invoice generation from subscriptions, due date handling (nominal 7 days, extended to month-end, further exceptions for last-week invoices), zero-value invoices, automated deduction engine (midnight generation, 3-day/7-day/10-day retry cycle with escalating consequences), and account freeze/unfreeze process. Key insight: clearing a payment without adjusting the next billing date can leave the cycle wrong.",
+    "evidence": [
+      { "type": "turn", "ref": "M10", "turn": 7, "text": "The nominal due period is seven days, but we sometimes give the customer until the end of the month." },
+      { "type": "turn", "ref": "M10", "turn": 15, "text": "Suppose the invoice is INR 6,240 but the wallet contains INR 6,110. The deduction fails and a notification goes out." },
+      { "type": "turn", "ref": "M10", "turn": 17, "text": "On the tenth day, if there is enough money, the invoice clears and the next billing date moves forward. If it still fails, payments and cards can be blocked" },
+      { "type": "turn", "ref": "M10", "turn": 18, "text": "Operations also needs to adjust the next billing date manually. Clearing the payment without checking that date can leave the next cycle wrong." }
+    ],
+    "not_established": "Whether the trainee has access to the back-office tool yet, how many customers are currently affected by billing issues, or the frequency of manual intervention needed.",
+    "next_steps": { "action": "Request back-office super-admin access for the trainee. Send billing examples for review before next session.", "owner": "Team member A" },
+    "pre_generated": true
+  }
+]

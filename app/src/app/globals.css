@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+:root {
+  --page-bg: #eef1ef;
+  --card-bg: #ffffff;
+  --green-900: #0b3d2a;
+  --green-700: #14683f;
+  --green-500: #1f8a57;
+  --green-300: #6fbf9a;
+  --green-100: #e3f2ea;
+  --text-primary: #14201a;
+  --text-muted: #6b7a72;
+  --amber: #b7791f;
+  --amber-100: #fef3c7;
+  --red: #b3261e;
+  --red-100: #fee2e2;
+  --border-subtle: #e5e9e7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--page-bg);
+  color: var(--text-primary);
+  font-family: var(--font-jakarta), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+/* Floating panel / card shadow */
+.floating-panel {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+/* Dark green gradient card */
+.gradient-dark-green {
+  background: linear-gradient(135deg, #0b3d2a 0%, #14683f 100%);
+  color: #ffffff;
+}
+
+/* Diagonal hatched stripe pattern for records with no transcript */
+.hatched-pattern {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #e3f2ea,
+    #e3f2ea 4px,
+    #ffffff 4px,
+    #ffffff 8px
+  );
+  border: 1px solid #c2e2d2;
+}
+
+/* Pill buttons */
+.btn-pill-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--green-700);
+  color: #ffffff;
+  border: 1px solid var(--green-700);
+  border-radius: 9999px;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 150ms ease;
+  white-space: nowrap;
+}
+
+.btn-pill-primary:hover:not(:disabled) {
+  background-color: var(--green-900);
+  border-color: var(--green-900);
+}
+
+.btn-pill-primary:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.btn-pill-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: var(--green-700);
+  border: 1px solid var(--green-700);
+  border-radius: 9999px;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 150ms ease;
+  white-space: nowrap;
+}
+
+.btn-pill-secondary:hover:not(:disabled) {
+  background-color: var(--green-100);
+}
+
+.btn-pill-secondary:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+/* Clean form inputs */
+input[type="text"],
+select,
+textarea {
+  background-color: #ffffff;
+  border: 1px solid var(--border-subtle);
+  border-radius: 9999px;
+  color: var(--text-primary);
+  font-size: 14px;
+  outline: none;
+  transition: border-color 150ms ease;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--green-700);
+}
